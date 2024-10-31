@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    286deg,
+    rgb(255, 255, 255) 5%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+li,
+button {
+  font-size: 17px !important;
+}
+.btm {
+  background-color: rgb(252, 206, 145);
+}
+/* ----Dropdown Exchange---- */
+.dropdown-exchange {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  border: 1px solid #ccc; /* Optional border */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+.dropdown-exchange:hover .dropdown-menu {
+  display: block; /* Show the dropdown on hover */
+  background-color: rgb(230, 230, 230); /* Background color of the dropdown */
+}
+/* -----Dropdown-Icon---- */
+.dropdown-icon {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  border: 1px solid #d5d4d4;
+  z-index: 1000;
+}
+.dropdown-icon:hover .dropdown-menu {
+  display: block; /* Show the dropdown on hover */
+  background-color: #eae8e8;
+}
+/* dropdown-Product */
+.dropdown-product {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  border: 1px solid #d5d4d4;
+  z-index: 1000;
+}
+.dropdown-product:hover .dropdown-menu {
+  display: block;
+  background-color: #eae8e8;
+}
+/* bottom navbar */
+.text-hover:hover {
+  text-decoration: 2px solid underline;
+}
+.text-hover:focus {
+  text-decoration: 2px solid underline;
+}
+@media (max-width: 992.98px) {
+  .bg-maxlg-cadetbule {
+    background-color: rgb(244, 215, 161) !important;
+  }
+  .text-maxlg-light {
+    color: black !important;
+  }
+}
+.col-6 {
+  transition: transform 0.5s ease, filter 0.5s ease;
+  /* filter: grayscale(50%); Starts in grayscale */
+}
+img {
+  transition: transform 0.5s ease, filter 0.5s ease;
+  /* filter: grayscale(50%); Starts in grayscale */
+}
+
+.col-6:hover {
+  /* filter: grayscale(0); Returns to full color on hover */
+  cursor: pointer;
+  box-shadow: 0px 0px 6px rgb(43, 42, 42); 
+}
+.col-6:hover img {
+  transform: scale(1.1);
+}
