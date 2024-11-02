@@ -12,7 +12,7 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="icon" href="assets/img/e-shop.png">
+    <link rel="icon" href="assets/img/e-shop.png" />
     <link rel="stylesheet" href="style/main.css" />
     <!-- Other Link -->
     <link
@@ -39,11 +39,6 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./pageloader/css/loader.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="./https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -60,6 +55,8 @@
       <div class="container p-0">
         <!-- top Navbar -->
         <nav
+          data-aos="fade-up"
+          data-aos-duration="3000"
           class="navbar navbar-expand-lg animate__animated animate__fadeInDown animate__delay-1s"
         >
           <div
@@ -341,7 +338,11 @@
         </div>
       </div>
       <!-- bottom navbar -->
-      <div class="d-none d-lg-block E-shop btm">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2500"
+        class="d-none d-lg-block E-shop btm"
+      >
         <div
           class="container navbar navbar-expand-lg py-1 d-flex justify-content-between"
         >
@@ -397,12 +398,14 @@
       <main class="container p-0 my-2">
         <!-- banner-->
         <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
           style="height: 65vh"
-          class="position-relative overflow-hidden animate__animated animate__fadeInUp animate__delay-1s"
+          class="position-relative overflow-hidden"
         >
-          <div class="container">
+          <div class="container m-0">
             <div
-              class="col-md-7 col-lg-4 p-5 position-absolute z-2 top-50 translate-middle-y"
+              class="col-md-7 col-lg-4 p-1 p-md-5 p-lg-5 p-xl-5 position-absolute z-2 top-50 translate-middle-y"
             >
               <div class="scrolling-text fw-bold fs-1">
                 <h1 class="E-shop1 fs-1">
@@ -415,11 +418,16 @@
               </div>
               <span class="E-shop1 text-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                <br />
                 officia suscipit quam aperiam quaerat doloribus sint. Quam
                 officia sunt accusantium.
               </span>
               <br />
-              <button class="btn btn-warning p-4 mt-2 text-light E-shop1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button
+                class="btn btn-warning p-4 mt-2 text-light E-shop1"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 Shop Now
                 <i class="bi bi-bag-check-fill"></i>
               </button>
@@ -481,10 +489,7 @@
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">
-
-                
-              </div>
+              <div class="modal-body"></div>
               <div class="modal-footer">
                 <button
                   type="button"
@@ -502,10 +507,12 @@
         </div>
         <!-- icon banner -->
         <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
           class="row m-0 d-flex my-5 justify-content-center justify-content-md-between"
         >
           <div
-            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center animate__animated animate__fadeInUp animate__delay-2s"
+            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center"
           >
             <div class="">
               <i class="bi bi-person-workspace fs-1"></i>
@@ -518,7 +525,7 @@
             </div>
           </div>
           <div
-            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center animate__animated animate__fadeInUp animate__delay-2s"
+            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center"
           >
             <div class="">
               <i class="bi bi-shield-check fs-1"></i>
@@ -531,7 +538,7 @@
             </div>
           </div>
           <div
-            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center animate__animated animate__fadeInUp animate__delay-2s"
+            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center"
           >
             <div class="">
               <i class="bi bi-truck fs-1"></i>
@@ -544,7 +551,7 @@
             </div>
           </div>
           <div
-            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center animate__animated animate__fadeInUp animate__delay-2s"
+            class="col-11 col-md-6 col-lg-3 p-3 d-flex align-items-center justify-content-center"
           >
             <div class="">
               <i class="bi bi-transparency fs-1"></i>
@@ -562,22 +569,22 @@
           <div class="Etec fs-4 ms-3 d-flex justify-content-between">
             <div>
               <i class="fa-brands fa-shopify fs-2"></i>
-              <span class="px-3 fs-3">Featured Product</span>
+              <span class="px-3 fs-4">Featured Product</span>
             </div>
             <div class="d-flex align-items-center text-warning">
               <i class="bi bi-arrow-right-short fs-3"></i>
-              <span class="fs-6 me-2">View all</span>
+              <span class="fs-6 me-1 me-md-2 me-lg-3">View all</span>
             </div>
           </div>
           <br />
           <!-- iphone -->
           <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
             class="scrollbar d-flex justify-content-start mt-3 overflow-x-scroll text-start p-3"
           >
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="400"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -638,8 +645,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="500"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -700,8 +705,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="600"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -762,8 +765,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="700"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -824,8 +825,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="800"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -946,20 +945,19 @@
             </div>
           </div>
           <!-- Ipad -->
-          <div class="Etec fs-4 ms-3 d-flex justify-content-between">
-            <div></div>
+          <div class="Etec fs-4 ms-3 d-flex justify-content-end">
             <div class="d-flex align-items-center text-warning">
               <i class="bi bi-arrow-right-short fs-3"></i>
               <span class="fs-6 me-2">View all</span>
             </div>
           </div>
           <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
             class="scrollbar d-flex justify-content-start mt-3 overflow-x-scroll text-start p-3"
           >
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="800"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -1020,8 +1018,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="700"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -1082,8 +1078,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="600"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -1144,8 +1138,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="500"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -1206,8 +1198,6 @@
             </div>
             <div
               class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="400"
             >
               <div class="card border-0">
                 <div class="position-relative">
@@ -1449,12 +1439,12 @@
           </div>
         </div>
         <!-- content -->
-        <div class="row justify-content-md-between m-0 my-3">
-          <div
-            class="col-12 col-lg-7"
-            data-aos="fade-right"
-            data-aos-delay="1000"
-          >
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom" data-aos-duration="2500"
+          class="row justify-content-md-between m-0 my-3"
+        >
+          <div class="col-12 col-lg-7">
             <div class="img-left rounded-4 mt-md-2 p-md-3 p-1 m-1">
               <h1 class="E-shop1">Free Shipping EeveryWhere</h1>
               <span class="text-light"
@@ -1466,11 +1456,7 @@
               </button>
             </div>
           </div>
-          <div
-            class="col-12 col-lg-5"
-            data-aos="fade-left"
-            data-aos-delay="1000"
-          >
+          <div class="col-12 col-lg-5">
             <div class="img-rigth rounded-4 mt-md-2 p-md-3 p-1 m-1 text-light">
               <h1 class="E-shop1">Black Friday Clearenc</h1>
               <span class=""
@@ -1484,7 +1470,7 @@
           </div>
         </div>
         <!-- New Product  -->
-        <div class="Etec fs-4 ms-3 d-flex justify-content-between">
+        <div  class="Etec fs-4 ms-3 d-flex justify-content-between">
           <div class="d-flex align-items-center justify-content-around">
             <i class="bi bi-bag-heart-fill fs-2"></i>
             <h1 class="E-shop1 fs-3 ms-3 text-center">New Product</h1>
@@ -1495,13 +1481,10 @@
           </div>
         </div>
         <div
-          class="scrollbar d-flex justify-content-start mt-3 overflow-x-scroll text-start p-3"
+        data-aos="fade-up"
+        data-aos-duration="2000" class="scrollbar d-flex justify-content-start mt-3 overflow-x-scroll text-start p-3"
         >
-          <div
-            class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
+          <div class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5">
             <div class="card border-0">
               <div class="position-relative">
                 <img
@@ -1559,11 +1542,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
+          <div class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5">
             <div class="card border-0">
               <div class="position-relative">
                 <img
@@ -1621,11 +1600,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
+          <div class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5">
             <div class="card border-0">
               <div class="position-relative">
                 <img
@@ -1683,11 +1658,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-            data-aos="fade-up"
-            data-aos-delay="700"
-          >
+          <div class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5">
             <div class="card border-0">
               <div class="position-relative">
                 <img
@@ -1745,11 +1716,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5"
-            data-aos="fade-up"
-            data-aos-delay="800"
-          >
+          <div class="col-6 p-2 col-md-3 col-lg-2 me-5 me-md-5 me-lg-3 me-xl-5">
             <div class="card border-0">
               <div class="position-relative">
                 <img
@@ -1867,10 +1834,8 @@
           </div>
         </div>
         <!-- Gadget -->
-        <div
-          class="gadget container-fluid mt-4 rounded-3"
-          data-aos="fade-up-right"
-        >
+        <div    data-aos="fade-up"
+        data-aos-duration="2000" class="gadget container-fluid mt-4 rounded-3">
           <div class="p-3 p-md-5 E-shop1 pt-md-5 p-sm-0">
             <h1 class="fs-1 fw-bold">Get Up-to-Date</h1>
             <h1 class="fs-1 fw-bold">Gadget Technology</h1>
@@ -1883,7 +1848,8 @@
           </div>
         </div>
         <!-- Best seller -->
-        <div class="row m-0 justify-content-between mt-5" id="bestseller">
+        <div    data-aos="fade-up"
+        data-aos-duration="2000" class="row m-0 justify-content-between mt-5" id="bestseller">
           <div class="row col-12 p-0 pb-3 col-md-7 m-0">
             <div class="d-flex justify-content-between align-items-center mb-4">
               <h2 class="E-shop1">Best Seller</h2>
@@ -1891,11 +1857,7 @@
                 >View all <i class="bi bi-arrow-right fs-4 mx-2"></i>
               </span>
             </div>
-            <div
-              class="col-6 col-lg-4 p-2 p-lg-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="500"
-            >
+            <div class="col-6 col-lg-4 p-2 p-lg-4">
               <div class="card border-0">
                 <div class="position-relative">
                   <img
@@ -1953,11 +1915,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-6 col-lg-4 p-2 p-lg-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="600"
-            >
+            <div class="col-6 col-lg-4 p-2 p-lg-4">
               <div class="card border-0">
                 <div class="position-relative">
                   <img
@@ -2015,11 +1973,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-6 col-lg-4 p-2 p-lg-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="700"
-            >
+            <div class="col-6 col-lg-4 p-2 p-lg-4">
               <div class="card border-0">
                 <div class="position-relative">
                   <img
@@ -2077,11 +2031,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-6 col-lg-4 p-2 p-lg-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="500"
-            >
+            <div class="col-6 col-lg-4 p-2 p-lg-4">
               <div class="card border-0">
                 <div class="position-relative">
                   <img
@@ -2139,11 +2089,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-6 col-lg-4 p-2 p-lg-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="600"
-            >
+            <div class="col-6 col-lg-4 p-2 p-lg-4">
               <div class="card border-0">
                 <div class="position-relative">
                   <img
@@ -2201,11 +2147,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-6 col-lg-4 p-2 p-lg-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="700"
-            >
+            <div class="col-6 col-lg-4 p-2 p-lg-4">
               <div class="card border-0">
                 <div class="position-relative">
                   <img
@@ -2264,11 +2206,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="b1 col-12 col-md-5 bg-success rounded-5"
-            data-aos="fade-up-left"
-            data-aos-delay="800"
-          >
+          <div class="b1 col-12 col-md-5 bg-success rounded-5">
             <div class="text-center text-light E-shop1 p-4">
               <h1 class="fw-bold">Buy one</h1>
               <h1 class="fw-bold">Get One Free !</h1>
@@ -2289,13 +2227,12 @@
             Frequntly Asked Qustion
           </h1>
           <button
-            class="btn btn-light w-100 text-start mt-3 p-1 p-md-2 p-lg-3 rounded-4"
+            class="btn btn-light w-100 text-start mt-3 p-3 p-md-4 p-lg-4 rounded-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+             data-aos="fade-up"
+        data-aos-duration="2000"
           >
             <span class="d-flex align-items-center">
               <i
@@ -2312,13 +2249,12 @@
             </div>
           </div>
           <button
-            class="btn btn-light w-100 text-start mt-3 p-1 p-md-2 p-lg-3 rounded-4"
+            class="btn btn-light w-100 text-start mt-3 p-3 p-md-4 p-lg-4 rounded-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample2"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+             data-aos="fade-up"
+        data-aos-duration="2000"
           >
             <span class="d-flex align-items-center">
               <i
@@ -2335,13 +2271,12 @@
             </div>
           </div>
           <button
-            class="btn btn-light w-100 text-start mt-3 p-1 p-md-2 p-lg-3 rounded-4"
+            class="btn btn-light w-100 text-start mt-3 p-3 p-md-4 p-lg-4 rounded-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample3"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+             data-aos="fade-up"
+        data-aos-duration="2000"
           >
             <span class="d-flex align-items-center">
               <i
@@ -2358,13 +2293,12 @@
             </div>
           </div>
           <button
-            class="btn btn-light w-100 text-start mt-3 p-1 p-md-2 p-lg-3 rounded-4"
+            class="btn btn-light w-100 text-start mt-3 p-3 p-md-4 p-lg-4 rounded-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample4"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+             data-aos="fade-up"
+        data-aos-duration="2000"
           >
             <span class="d-flex align-items-center">
               <i
@@ -2381,13 +2315,12 @@
             </div>
           </div>
           <button
-            class="btn bg-danger-subtle shadow-none border-0 w-100 text-start mt-3 p-3 rounded-4"
+            class="btn bg-danger-subtle shadow-none border-0 w-100 text-start mt-3 p-3 p-md-4 p-lg-4 rounded-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample5"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+             data-aos="fade-up"
+        data-aos-duration="2000"
           >
             <span class="d-flex align-items-center">
               <i class="bi bi-arrow-down-circle px-2 fs-4 text-danger"></i> Can
@@ -2405,12 +2338,8 @@
         </div>
       </div>
       <!-- Tech talk -->
-      <div
-        class="container p-0 my-5 shadow-sm m-a"
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-      >
+      <div  data-aos="fade-up"
+      data-aos-duration="2000" class="container p-0 my-5 shadow-sm m-a">
         <div class="m-0 row">
           <div class="col-lg-7 m-0 p-3">
             <h3 class="E-shop1 mb-4">Tech Talk</h3>
@@ -2488,14 +2417,13 @@
       <br />
       <hr />
       <!--  logo -->
-      <div class="container p-0 shadow-lg">
+      <div  data-aos="fade-up"
+      data-aos-duration="1000" class="container p-0 shadow-lg">
         <div
           class="row m-0 d-flex my-5 justify-content-center justify-content-md-between"
         >
           <div
             class="col-12 col-md-6 col-lg-3 p-3 py-sm-4 d-flex align-items-center justify-content-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
           >
             <div class="" style="width: 110px">
               <img
@@ -2507,8 +2435,6 @@
           </div>
           <div
             class="col-12 col-md-6 col-lg-3 p-3 py-sm-4 d-flex align-items-center justify-content-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
           >
             <div class="" style="width: 90px">
               <img
@@ -2520,8 +2446,6 @@
           </div>
           <div
             class="col-12 col-md-6 col-lg-3 p-3 py-sm-4 d-flex align-items-center justify-content-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
           >
             <div class="" style="width: 90px">
               <img
@@ -2533,8 +2457,6 @@
           </div>
           <div
             class="col-12 col-md-6 col-lg-3 p-3 py-sm-4 d-flex align-items-center justify-content-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
           >
             <div class="" style="width: 80px">
               <img
@@ -2546,7 +2468,8 @@
           </div>
         </div>
       </div>
-      <footer class="container-fluid bg-dark py-5 mt-3">
+      <footer data-aos="fade-up"
+      data-aos-duration="2000" class="container-fluid bg-dark py-5 mt-3">
         <div class="container">
           <!-- Subscribe -->
           <div class="col-lg-10 m-auto px-md-5 py-4">
@@ -2564,176 +2487,178 @@
               </button>
             </form>
           </div>
-          <div
-            class="row m-0 my-4 py-4 d-flex justify-content-center align-items-center"
-          >
-            <div class="col-5 col-lg-3">
-              <h4 class="E-shop1 text-light">Contact Us</h4>
-              <ul class="navbar-nav mt-3 mb-5">
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                  >
-                    <i class="bi bi-telephone-forward-fill me-1"></i>
-                    +855 10-999-666
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                  >
-                    <i class="bi bi-envelope-arrow-up-fill me-1"></i>
-                    example@gmail.com
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                  >
-                    <i class="bi bi-geo-alt-fill me-1"></i>
-                    St 160, Phnom Penh
-                  </a>
-                </li>
-              </ul>
-              <img
-                src="https://theecommerce.club/wp-content/uploads/2020/11/Logo.png"
-                alt=""
-                width="120px"
-              />
-            </div>
-            <div class="col-5 col-lg-3">
-              <h4 class="E-shop1 text-light">Categories</h4>
-              <ul class="navbar-nav mt-3 mb-5">
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Computer & Tablets</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Printer</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Mobile</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Headphones</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >TV & Home Theater</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="col-5 col-lg-3">
-              <h4 class="E-shop1 text-light">Support</h4>
-              <ul class="navbar-nav mt-3 mb-5">
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >About Us</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Privacy Policy</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Help Center</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Store Location</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="col-5 col-lg-3">
-              <h4 class="E-shop1 text-light">Payment</h4>
-              <ul class="navbar-nav mt-3 mb-2">
-                <li class="mb-2">
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                  >
-                    <img
-                      src="https://www.drivingamericaautotransport.com/wp-content/uploads/2020/06/credit567.png"
-                      alt=""
-                      class="img-fluid mb-2"
-                      style="max-width: 100%; height: auto"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <h4 class="E-shop1 text-light">Follow Us</h4>
-              <ul class="navbar-nav mb-2">
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Twitter</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Facebook</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-secondary text-decoration-none font-txt"
-                    style="font-size: 14px"
-                    >Tiktok</a
-                  >
-                </li>
-              </ul>
+          <div class="container">
+            <div class="row m-0 my-4 py-4 justify-content-center">
+              <div class="col-12 col-sm-6 col-lg-3 mb-4 text-center">
+                <h4 class="E-shop1 text-light">Contact Us</h4>
+                <ul class="navbar-nav mt-3">
+                  <li class="nav-item">
+                    <a
+                      href="tel:+85510999666"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                    >
+                      <i class="bi bi-telephone-forward-fill me-1"></i> +855
+                      10-999-666
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="mailto:example@gmail.com"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                    >
+                      <i class="bi bi-envelope-arrow-up-fill me-1"></i>
+                      example@gmail.com
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                    >
+                      <i class="bi bi-geo-alt-fill me-1"></i> St 160, Phnom Penh
+                    </a>
+                  </li>
+                </ul>
+                <img
+                  src="https://theecommerce.club/wp-content/uploads/2020/11/Logo.png"
+                  alt="Company Logo"
+                  width="120"
+                />
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3 mb-4 text-center">
+                <h4 class="E-shop1 text-light">Categories</h4>
+                <ul class="navbar-nav mt-3">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Computer & Tablets</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Printer</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Mobile</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Headphones</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >TV & Home Theater</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3 mb-4 text-center">
+                <h4 class="E-shop1 text-light">Support</h4>
+                <ul class="navbar-nav mt-3">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Help Center</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Store Location</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3 mb-4 text-center">
+                <h4 class="E-shop1 text-light">Payment</h4>
+                <ul class="navbar-nav mt-3 mb-2">
+                  <li class="nav-item mb-2">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                    >
+                      <img
+                        src="https://www.drivingamericaautotransport.com/wp-content/uploads/2020/06/credit567.png"
+                        alt="Payment Methods"
+                        class="img-fluid"
+                        style="max-width: 100%; height: auto"
+                      />
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="E-shop1 text-light">Follow Us</h4>
+                <ul class="navbar-nav mb-2">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-secondary text-decoration-none font-txt"
+                      style="font-size: 14px"
+                      >Tiktok</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="row m-0 border-top border-secondary py-2">
@@ -2745,11 +2670,11 @@
             <div class="col-md-6 text-center text-md-end">
               <span class="font-txt text-secondary"> Privacy Policy</span>
               <span
-                class="font-txt text-secondary border-start border-end px-1 border-secondary"
+                class="font-txt text-secondary border-start border-end px-2 border-secondary"
               >
                 Terms & Condition
               </span>
-              <span class="font-txt text-secondary"> Sitemap</span>
+              <span class="font-txt text-secondary px-2"> Sitemap</span>
             </div>
           </div>
         </div>
@@ -2760,6 +2685,5 @@
   <script>
     AOS.init();
   </script>
-
   <script type="application/javascript " src="pageloader/js/loader.js"></script>
 </html>
