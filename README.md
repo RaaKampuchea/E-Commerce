@@ -1,5 +1,5 @@
-![356074392_201906702820039_4604044622422302070_n](https://github.com/user-attachments/assets/bc10d3df-9087-4910-9c73-b5c2082d2ea2)
-![Uploading freefire01.jpg…]()
+![Screenshot 2024-11-02 115728](https://github.com/user-attachments/assets/de72269e-12e3-4c76-ab55-3820b0350257)
+
 # E-Commerce webiste about electronic and more seller.
 
 
